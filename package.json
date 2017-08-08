@@ -1,0 +1,22 @@
+{
+    "name": "happy-graphql",
+    "version": "0.0.1",
+    "description": "",
+    "main": "index.js",
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/honpery/happy-graphql.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "Apache License 2.0",
+    "bugs": {
+        "url": "https://github.com/honpery/happy-graphql/issues"
+    },
+    "homepage": "https://github.com/honpery/happy-graphql#readme",
+    "devDependencies": {
+        "tslint": "^5.6.0",
+        "typescript": "^2.4.2"
+    }
+}
