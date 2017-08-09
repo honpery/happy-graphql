@@ -16,7 +16,11 @@
     },
     "homepage": "https://github.com/honpery/happy-graphql#readme",
     "devDependencies": {
+        "@types/graphql": "^0.10.2",
         "tslint": "^5.6.0",
         "typescript": "^2.4.2"
+    },
+    "dependencies": {
+        "graphql": "^0.10.5"
     }
 }
