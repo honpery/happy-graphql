@@ -8,7 +8,8 @@
         "quotemark": ["single"],
         "object-literal-sort-keys": false,
         "arrow-parens": false,
-        "forin": false
+        "forin": false,
+        "interface-name": ["never-prefix"]
     },
     "rulesDirectory": []
 }
