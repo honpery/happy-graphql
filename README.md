@@ -1,4 +1,4 @@
-# happy-graphql [![Build Status](https://travis-ci.org/honpery-com/honpery-com.svg?branch=master)](https://travis-ci.org/honpery-com/honpery-com)
+# happy-graphql [![Build Status](https://travis-ci.org/honpery/happy-graphql.svg?branch=master)](https://travis-ci.org/honpery/happy-graphql)
 
 - scalar(name, options)
 - List(type)
