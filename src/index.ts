@@ -2,7 +2,7 @@ import {
     GraphQLArgumentConfig, GraphQLBoolean, GraphQLFieldConfig,
     GraphQLFieldConfigArgumentMap, GraphQLFieldConfigMap, GraphQLFieldResolver, GraphQLFloat,
     GraphQLID, GraphQLInputFieldConfigMap, GraphQLInputType,
-    GraphQLInt, GraphQLInterfaceType, GraphQLObjectType,
+    GraphQLInt, GraphQLInterfaceType, GraphQLList, GraphQLNonNull, GraphQLObjectType,
     GraphQLOutputType, GraphQLScalarType, GraphQLString, ValueNode,
 } from 'graphql';
 import { bigCamel, ResolveThunk, smallCamel, Thunk } from './helper';
@@ -45,6 +45,20 @@ export const scalars = {
     // id
     id: GraphQLID,
 };
+
+/**
+ * list
+ */
+export function List(type: GraphQLObjectType) {
+    return new GraphQLList(type);
+}
+
+/**
+ * required
+ */
+export function Required(type: GraphQLObjectType) {
+    return new GraphQLNonNull(type);
+}
 
 /**
  * args
