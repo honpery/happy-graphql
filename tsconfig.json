@@ -4,6 +4,14 @@
         "module": "commonjs",
         "typeRoots": [
             "node_modules/@types"
-        ]
-    }
+        ],
+        "outDir": "dist",
+        "lib": [
+            "esnext"
+        ],
+        "declaration": true
+    },
+    "include": [
+        "./src"
+    ]
 }

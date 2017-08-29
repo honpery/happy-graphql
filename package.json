@@ -2,21 +2,31 @@
     "name": "happy-graphql",
     "version": "0.0.1",
     "description": "",
-    "main": "index.js",
-    "scripts": {},
+    "main": "./dist/index.d.js",
+    "scripts": {
+        "test": "./node_modules/.bin/mocha --opts .mocharc",
+        "build": "tsc",
+        "publishh": ""
+    },
+    "typing": "./dist/index.d.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/honpery/happy-graphql.git"
     },
     "keywords": [],
     "author": "",
-    "license": "Apache License 2.0",
+    "license": "MIT",
     "bugs": {
         "url": "https://github.com/honpery/happy-graphql/issues"
     },
     "homepage": "https://github.com/honpery/happy-graphql#readme",
     "devDependencies": {
+        "@types/chai": "^4.0.4",
         "@types/graphql": "^0.10.2",
+        "@types/mocha": "^2.2.42",
+        "chai": "^4.1.1",
+        "mocha": "^3.5.0",
+        "ts-node": "^3.3.0",
         "tslint": "^5.6.0",
         "typescript": "^2.4.2"
     },
