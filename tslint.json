@@ -9,7 +9,8 @@
         "object-literal-sort-keys": false,
         "arrow-parens": false,
         "forin": false,
-        "interface-name": ["never-prefix"]
+        "interface-name": ["never-prefix"],
+        "curly": false
     },
     "rulesDirectory": []
 }

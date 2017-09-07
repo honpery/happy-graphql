@@ -1,14 +1,14 @@
 {
     "name": "happy-graphql",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "",
-    "main": "./dist/index.d.js",
+    "main": "./dist/index.js",
     "scripts": {
         "test": "./node_modules/.bin/mocha --opts .mocharc",
         "build": "tsc",
-        "publishh": ""
+        "publish": "npm run build && npm publish"
     },
-    "typing": "./dist/index.d.js",
+    "typings": "./dist/index.d.js",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/honpery/happy-graphql.git"
